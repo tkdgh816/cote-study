@@ -1,0 +1,39 @@
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+.artifacts/
+
+# Logs
+*.log
+*.binlog
+[Ll]ogs/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Extensions and tools
+_ReSharper*/
+*.DotSettings.user
+BenchmarkDotNet.Artifacts/
+
+# Sensitive files
+*.pfx
+*.publishsettings
+.env
+.env.*
+!.env.example
