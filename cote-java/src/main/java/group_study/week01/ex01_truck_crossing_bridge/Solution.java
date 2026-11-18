@@ -1,5 +1,6 @@
 package group_study.week01.ex01_truck_crossing_bridge;
 
+// [프로그래머스] 다리를 지나는 트럭
 // https://school.programmers.co.kr/learn/courses/30/lessons/42583
 
 // 트럭 한 대가 다리 위에 있는 시간: bridge_length
