@@ -2,6 +2,10 @@
 
 ## ⭐ 다리를 지나는 트럭
 
+[문제 풀이](./ex01_truck_crossing_bridge/Solution.java)
+
+[테스트 케이스](../../../../test/java/group_study/week01/ex01_truck_crossing_bridge/SolutionTest.java)
+
 ### 접근 방법 및 시도
 - 트럭 한 대가 다리를 건너는 시간이 안 나와 있었으나, 최대 `bridge_length` 대만큼 다리에 올라가 있을 수 있다는 조건에서 다리의 길이를 변수명인 `bridge_length`으로 간주하고 1초에 1만큼 다리를 건넌다고 생각하였다.
 - 처음에는 트럭의 진입 순서를 직접 결정하여 최단 시간이라는 최적해를 구하는 그리디 문제로 생각하였으나, 트럭의 진입 순서가 정해져 있었다는 점에서 큐 사용을 고려하였다.
@@ -15,6 +19,10 @@
 - 새 트럭이 진입할 수 없는 시점부터 가능해지는 시점까지를 계산하여 곧바로 반영할 수 있는 방법이 더 효율적일 것 같다.
 
 ## ⭐ 주식가격
+
+[문제 풀이](./ex02_stock_price/Solution.java)
+
+[테스트 케이스](../../../../test/java/group_study/week01/ex02_stock_price/SolutionTest.java)
 
 ### 접근 방법 및 시도
 - 매초마다 이후 가격이 떨어지지 않을 때까지 걸린 시간을 계산하면 간단히 풀 수 있다.
