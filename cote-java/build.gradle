@@ -17,4 +17,5 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    testLogging.events 'failed', 'standardOut'
 }
